@@ -9,7 +9,7 @@ Agregar la logica necesaria a la funcion 'onClick' que permita cambiar el conten
  */
 
 function changeTextOnclick(e) {
-  // logica aqui.
+    // logica aqui.
 }
 const button1 = document.getElementById('btn-1')
 button1.addEventListener('click', changeTextOnclick)
@@ -28,5 +28,5 @@ const box = document.querySelector('.box')
 const button2 = document.querySelector('.btn-2')
 
 function changeBackgroundColorOnClick() {
-  box.style.backgroundColor = 'teal'
+    box.style.backgroundColor = 'teal'
 }
