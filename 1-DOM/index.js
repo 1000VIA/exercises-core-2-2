@@ -17,10 +17,10 @@ console.log(divs);
 let header = document.getElementById('header');
 console.log(header);
 
-let box = document.getElementsByClassName('box')[0];
+let box = document.querySelector('.box');
 console.log(box);
 
-let class_wrap = document.getElementsByClassName('wrap');
+let class_wrap = document.querySelectorAll('.wrap');
 console.log(class_wrap);
 
 let div_wrap = document.querySelectorAll('div.wrap');

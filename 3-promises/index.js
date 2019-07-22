@@ -11,7 +11,7 @@ Agregar la dentro del metodo .then() la logica necesaria para imprimir el valor 
 const myPromise = Promise.resolve(50)
 
 myPromise.then(function(value) {
-  // logica aqui
+    // logica aqui 
 })
 
 /*
@@ -25,7 +25,7 @@ Agregar dentro del Callback 'funcion1' la logica necesaria sumarle al valor 'val
 */
 
 const addValue = function(value) {
-  // logica aqui.
+    // logica aqui.
 }
 
 const anotherPromise = Promise.resolve()
